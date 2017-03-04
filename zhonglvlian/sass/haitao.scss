@@ -1,0 +1,356 @@
+.sous_bg{
+    width: 100%;
+    height: 57px;
+    padding: 20px 0px 25px 0px;
+    background: #f5f5f5;
+    .sous{
+        width: 1090px;
+        height: 57px;
+        margin: 0 auto;
+        .logo_ht{
+            display: block;
+            width: 153px;
+            height: 54px;
+            margin: 2px 0px 0px 30px;
+            background: url(../img/haitao_img/logo.gif) no-repeat;
+            float: left;
+        }
+        div{
+            width: 462px;
+            height: 33px;
+            float: right;
+            input{
+                display: block;
+                width: 407px;
+                height: 25px;
+                padding: 5px;
+                border: 1px solid #8a4cd3;
+                float: left;
+            }
+            a{
+                display: block;
+                width: 43px;
+                height: 36px;
+                background: url(../img/haitao_img/fdj.gif) no-repeat;
+                float: left;
+            }
+        }
+    }
+}
+
+.xuanz_bg{
+    width: 100%;
+    height: 36px;
+    background: #f5f5f5;
+    position: relative;
+    .xuanz{
+        width: 1090px;
+        height: 36px;
+        margin: 0 auto;
+        background: #fff;
+        ul{
+            display: block;
+            float: left;
+            width: 900px;
+            height: 36px;
+            li{
+                display: block;
+                float: left;
+                a{
+                    display: block;
+                    width: 120px;
+                    height: 36px;
+                    padding: 0px 3px;
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 36px;
+                    color: #000;
+                    &:hover{
+                        background: #d7b2ff;
+                        font-weight: 900;
+                    }
+                }
+                .fhmy:hover{
+                    background: #fff;
+                    font-weight: 500;
+                }
+            }
+        }
+        span{
+            display: block;
+            width: 138px;
+            height: 36px;
+            float: right;
+            i{
+                display: block;
+                width: 36px;
+                height: 36px;
+                background: url(../img/haitao_img/sj.gif) no-repeat center center;
+                float: left;
+            }
+            a{
+                display: block;
+                width: 102px;
+                height: 32px;
+                font-size: 12px;
+                color: #000;
+                text-align: center;
+                line-height: 36px;
+                float: left;
+                &:hover{
+                    color: #8b4dd1;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .huahua{
+        width: 100%;
+        height: 26px;
+        background: url(../img/haitao_img/hua.png) repeat-x ;
+        position: absolute;
+        left: 0px;
+        top: 36px;
+    }
+}
+
+.pinpai_bg{
+    width: 100%;
+    height: 95px;
+    background: #f5f5f5;
+    .pinpai{
+        width: 1090px;
+        height: 95px;
+        background: url(../img/haitao_img/pinpai.gif) no-repeat;
+        margin: 0 auto;
+    }
+}
+
+.djlogo_bg{
+    width: 100%;
+    height: 140px;
+    background: #f5f5f5;
+    .djlogo{
+        width: 1100px;
+        height: 140px;
+        margin: 0 auto;
+        ul{
+            display: block;
+            li{
+                display: block;
+                float: left;
+                background: #fff;
+                a{
+                    display: block;
+                    width: 160px;
+                    height: 50px;
+                    padding: 9px 10px;
+                    border: 1px solid #e5e5e5;
+                    background: url(../img/haitao_img/a01.jpg) no-repeat center center;
+                    &:hover{
+                        border: 1px solid #8a4cd3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.jg_bg{
+    width: 100%;
+    height: 83px;
+    background: #f5f5f5;
+    .jg{
+        width: 1090px;
+        height: 83px;
+        margin: 0 auto;
+        background: url(../img/haitao_img/jinfgxuan.gif) no-repeat;
+    }
+}
+
+.json_bg{
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    overflow: hidden;
+    .js{
+        width: 1090px;
+        height: auto;
+        margin: 0 auto;
+        .sp{
+            width: 1088px;
+            height: 278px;
+            margin-bottom: 20px;
+            border: 1px solid #f5f5f5;
+            background: #fff;
+            &:hover{
+                border: 1px solid #f00;
+            }
+            .js_img{
+                display: block;
+                width: 598px;
+                height: 278px;
+                float: left;
+                border-right: 1px solid #f5f5f5;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .sp_r{
+                width: 458px;
+                height: 252px;
+                padding: 10px 10px 10px 20px;
+                float: left;
+                .zk{
+                    display: block;
+                    width: 458px;
+                    height: 44px;
+                    background: url(../img/haitao_img/zk.gif) no-repeat 10px center;
+                }
+                .sp_name{
+                    display: block;
+                    width: 458px;
+                    height: 32px;
+                    padding-top: 5px;
+                    border-bottom: 1px solid #e5e5e5;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #666;
+                    font-weight: 900;
+                    &:hover{
+                        color: #8a4cd3;
+                    }
+                }
+                .sp_js{
+                    display: block;
+                    width: 458px;
+                    height: 70px;
+                    padding: 8px 0px 6px 0px;
+                    color: #666;
+                    font-size: 15px;
+                    line-height: 22px;
+                    
+                }
+                .sp_sz{
+                    display: block;
+                    width: 438px;
+                    padding-left: 20px;
+                    height: 18px;
+                    color: #999;
+                    font-size: 12px;
+                    line-height: 18px;
+                    background: url(../img/haitao_img/dian.gif) no-repeat 3px center;
+                }
+                .zuihou{
+                    display: block;
+                    width: 458px;
+                    height: 60px;
+                    margin-top: 10px;
+                    .zuihou_l{
+                        display: block;
+                        height: 42px;
+                        float: left;
+                        margin-top: 15px;
+                        padding-left: 20px;
+                        font-size: 36px;
+                        line-height: 42px;
+                        color: #f00;
+                        font-weight: 900;
+                        background: url(../img/haitao_img/qian.gif) no-repeat 5px center;
+                    }
+                    a{
+                        display: block;
+                        width: 60px;
+                        height: 60px;
+                        background: url(../img/haitao_img/jr.gif) no-repeat;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hb_bg{
+    width: 100%;
+    height: 57px;
+    background: #F5F5F5;
+    .hb{
+        width: 1090px;
+        height: 57px;
+        margin: 0 auto;
+        .hb_l{
+            display: block;
+            width: 134px;
+            height: 57px;
+            background: url(../img/haitao_img/biao.gif) no-repeat;
+            float: left;
+        }
+        ul{
+            display: block;
+            float: left;
+            margin-left: 200px;
+            margin-top: 20px;
+            li{
+                display: block;
+                float: left;
+                width: 85px;
+                height: 36px;
+                margin-right: 20px;
+                a{
+                    display: block;
+                    width: 85px;
+                    height: 36px;
+                    background: #f5f5f5;
+                    font-size: 14px;
+                    font-weight: 900;
+                    text-align: center;
+                    line-height: 36px;
+                    color: #666;
+                    &:hover{
+                        color: #fff;
+                        background: #FF5C00;
+                    }
+                }
+            }
+        }
+        .zz_01{
+            display: block;
+            width: auto;
+            height: 36px;
+            margin-top: 20px;
+            float: right;
+            margin-right: 10px;
+            font-size: 12px;
+            color: #666;
+            line-height: 36px;
+            &:hover{
+                color: #8A4CD3;
+            }
+        }
+    }
+}
+
+.bianhua_bg{
+    width: 100%;
+    height: 538px;
+    background: #f5f5f5;
+    .bianhua{
+        width: 1103px;
+        height: 538px;
+        margin: 0 auto;
+        a{
+            display: block;
+            width: 219px;
+            height: 239px;
+            background: url(../img/haitao_img/lll.gif) no-repeat;
+            float: left;
+            border: 1px solid #f5f5f5; 
+            &:hover{
+                border: 1px solid #8A4CD3;
+            }
+        }
+    }
+}

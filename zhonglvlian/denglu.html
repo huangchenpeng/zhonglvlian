@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登陆</title>
+		<link rel="stylesheet" href="css/reset.css" />	
+		<link rel="stylesheet" href="css/com.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/denglu.css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/denglu.js"></script>
+		<script src="js/cookie.js"></script>
+	</head>
+	<body>
+		<!--头文件，就是轮播图上边的一大堆-->
+		<div id="header_bg">
+
+			<div id="header_xian"></div>
+			<!--版本客服之类选择栏-->
+			<div id="header_xz_bg">
+			<div class="header_xz">
+				<!-- 首页按钮 app下载 三个 在左边-->
+				<ul class="header_xz_l">
+					<li class="header_xz_l_l1"><a href="#" class="header_xz_l_a1">联盟首页</a></li>
+					<li><a href="timer/index.html">联盟动态</a></li>
+					<li class="header_xz_l_l2">
+						<i class="header_xz_l_i"></i>
+						<a href="App.html" class="header_xz_l_a2">app下载</a>
+					</li>
+				</ul>
+				<!--登录 注册 等等在右边-->
+				<ul class="header_xz_r">
+					<li class="header_xz_r_l1">
+						<p>欢迎来到中律联盟！</p>
+						<a href="denglu.html" target="_blank" class="welcome">[登录]</a>
+						<a href="zhuce.html" target="_blank" class="yongName">[免费注册]</a>
+					</li>
+					<li>
+						<a href="#" class="xl">我的提问</a>
+						<em></em>
+						<div class="header_xz_r_d1" style="height: 120px;">
+							<a href="gouwuche.html">我的关注</a>
+							<a href="#">我的评论</a>
+							<a href="#">我的话题</a>
+							<a href="#">我的提问</a>
+							<a href="#">我的设置</a>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="xl">客户服务</a>
+						<em></em>
+						<div class="header_xz_r_d1" style="height: 48px;">
+							<a href="#">在线客服</a>
+							<a href="#">服务中心</a>
+						</div>
+					</li>
+					<li><a href="#">商务合作</a></li>
+					<li>
+						<a href="#" class="xl">网站导航</a>
+						<em></em>
+						<div class="header_xz_r_d1" style="height: 48px;">
+							<a href="#">分类导航</a>
+							<a href="#">联盟中心</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--搜索框-->
+		</div>
+			
+		<!--logo-->
+		<div id="logo">
+			<a href="index.html">
+				<img src="images/logo.png"/>
+			</a>
+		</div>		
+  
+  
+  		<!--登录界面主题-->
+  		<div id="main_bg">
+  			<div id="main">
+  				<!--上边的登录  注册转换按钮-->
+  				<div class="zhuce_dian_bg">
+  					<a href="zhuce.html" class="zhuce_dian"></a>
+  				</div>
+  				<div class="denglu_dian_bg">
+  					<a href="javascript:;" class="denglu_dian"></a>
+  				</div>
+  				
+  				
+  				<!--下边的div主题-->
+  				<div class="denglu">
+  					<!--登录界面，左边的图片-->
+  					<div class="denglu_l"><a href="javascript:;"></a></div>
+  					<!--登录界面，右边的输入-->
+  					
+  					
+  					
+  					
+  					<div class="denglu_r">
+  						<ul>
+  							<!--请输入手机号-->
+  							<li>
+  								<p>账户名:</p>
+  								<div>
+  									<input type="text" placeholder="请输入手机号">
+  									<b class="un">
+  										手机账号不对，请重新输入！
+  										<i></i>
+  									</b>
+  								</div>
+  							</li>
+  							
+  							<!--请输入密码-->
+  							<li>
+  								<p>密码:</p>
+  								<div>
+  									<input type="text" placeholder="请填入密码" style="background: url(img/zhuce_img/qianbi.png) no-repeat 245px center;">
+  									<b class="mimaya">
+  										密码错误！
+  										<i></i>
+  									</b>
+  								</div>
+  							</li>
+  							<!--输入验证码-->
+  							<li>
+  								<p>验证码:</p>
+  								<div>
+  									<div class="yanzheng">
+  										<input type="text" placeholder="请输入" class="yanzheng_write"/> 
+  										<span class="yanzheng_tupian">
+  											<img src="img/yanzhengma_img/yz01.png"  style="display: block;"/>
+  											<img src="img/yanzhengma_img/yz02.png" />
+  											<img src="img/yanzhengma_img/yz03.png" />
+  										</span>
+  										<strong>
+  											看不清？
+  											<a href="javascript:;" class="ppt">换一张</a>
+  										</strong>
+  									</div>
+  									<b class="a117">
+  										验证码格式错误
+  										<i></i>
+  									</b>
+  								</div>
+  							</li>
+  						</ul>
+  						
+  						
+  						<!--复选框。同意不同意用户协议-->
+  						<div class="yonghuxieyi">
+  							<input type="checkbox" name="xieyi" checked="checked">
+  							<p>
+  								记住我（30天内免登陆）
+  								<a href="javascript:;">忘记密码？</a>
+  							</p>
+  							
+  						</div>
+  						<!--提交按钮-->
+  						<div class="tijiao">
+  							<a href="javascript:;" class="dlanniu"></a>
+  						</div>
+  						<!--其他方式登录-->
+  						<div class="qitafangshi">
+  							<p>使用合作网站账号登录中律联盟：</p>
+  							<a href="javascript:;" style="background: url(img/zhuce_img/qita01.png) no-repeat;"></a>
+  							<a href="javascript:;" style="background: url(img/zhuce_img/qita02.png) no-repeat;"></a>
+  							<a href="javascript:;" style="background: url(img/zhuce_img/qita03.png) no-repeat;"></a>
+  						</div>
+  					</div>
+  					
+  					
+  					
+  					
+  					
+  				</div>
+  			</div>
+  		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--最后的条子页面-->
+		<div id="foot">
+			<div >
+				<img src="images/11.png"/>
+			</div>
+		</div>
+	
+		
+	</body>
+</html>

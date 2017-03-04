@@ -1,0 +1,478 @@
+
+#dizhi{
+    width: 1200px;
+    height: 30px;
+    padding: 5px 0px;
+    margin: 0 auto;
+    a{
+        font-size: 14px;
+        line-height: 30px;
+        color: #000;
+        &:hover{
+            color: #FF5C00;
+        }
+    }
+    .dizhi01{
+        font-weight: 900;
+    }
+    .dizhi04{
+        font-size: 12px;
+        color: #666666;
+    }
+}
+
+
+#xqing_bg{
+    width: 1200px;
+    height: 477px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    #xqing{
+        width: 1198px;
+        height: 475px;
+        border: 1px solid #f1f1f1;
+        .xqing_l{
+            width: 350px;
+            height: 464px;
+            float: left;
+            
+            
+            
+            
+            .fdj_x{
+                width: 350px;
+                height: 350px;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .fdj_xiansji{
+                    width: 350px;
+                    height: 350px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    z-index: 10;
+                }
+                .xuanzhe{
+                    width: 100px;
+                    height: 100px;
+                    background: #555555;
+                    opacity: 0.5;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    display: none;
+                }
+                .dingwei{
+                    width: 500px;
+                    height: 500px;
+                    position: absolute;
+                    top: 0px;
+                    left: 430px;
+                    z-index: 12;
+                    overflow: hidden;
+                    display: none;
+                    .kuangjia{
+                        width: 500px;
+                        height: 500px;
+                        position: relative;
+                        .fangdade{
+                           width: 1000px;
+                           height: 1000px;
+                           position: absolute;
+                           top: 0px;
+                           left: 0px;
+                           img{
+                               width: 100%;
+                               height: 100%;
+                           }
+                       }
+                    }
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            .tupian_x{
+                width: 350px;
+                height: 64px;
+                .lj{
+                    display: block;
+                    width: 22px;
+                    height: 64px;
+                    background: url(../img/xiangqing_img/l.png) no-repeat;
+                    float: left;
+                }
+                .rj{
+                    display: block;
+                    width: 22px;
+                    height: 64px;
+                    background: url(../img/xiangqing_img/r.png) no-repeat;
+                    float: right;
+                }
+                .ximg_01{
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid #F1F1F1;
+                    margin-right: 5px;
+                    padding: 3px;
+                    float: left;
+                    margin-top: 3px;
+                    &:hover{
+                        border: 1px solid #FF5C00;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .fabu{
+                width: 327px;
+                height: 38px;
+                padding: 12px 0px 0px 23px;
+                a{
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    float: left;
+                    margin-right: 8px;
+                    margin-top: 4px;
+                }
+                .sc{
+                    display: block;
+                    width: 82px;
+                    height: 24px;
+                    float: right;
+                    margin-left: 15px;
+                    border-left: 1px solid #CCCCCC;
+                }
+            }
+        }
+        .xqing_m{
+            width: 635px;
+            height: 450px;
+            float: left;
+            padding: 15px 10px 10px 10px;
+            border-left: 1px solid #F1F1F1;
+            border-right: 1px solid #F1F1F1;
+            h3{
+                width: 635px;
+                height: 24px;
+               font-size: 16px;
+               line-height: 24px;
+               margin-bottom: 3px;
+            }
+            b{
+                display: block;
+                width: 615px;
+                height: 18px;
+                font-size: 12px;
+                line-height: 18px;
+                color: #999999;
+                font-weight: 100;
+                padding-left: 20px;
+                background: url(../img/xiangqing_img/jj.png) no-repeat 0 center ;
+            }
+            span{
+                width: 620px;
+                height: 27px;
+                padding: 7px 0px 3px 0px;
+                font-size: 14px;
+                line-height: 27px;
+                color: #999999;
+                margin-left: 15px;
+                strong{
+                    color: #f00;
+                   font-size: 20px;
+                   line-height: 27px;
+                   margin-left: 20px;
+                }
+            }
+            .p_t{
+                width: 620px;
+                height: 33px;
+                padding: 7px 0px 3px 0px;
+                font-size: 14px;
+                line-height: 33px;
+                color: #999999;
+                padding-left: 15px;
+                border-top: 1px dashed #999999;
+                position: relative;
+                a{
+                    display: block;
+                    width: 45px;
+                    height: 26px;
+                    border: 1px solid #FF5C00;
+                    font-size: 14px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #000000;
+                    position: absolute;
+                    top: 12px;
+                    left: 88px;
+                }
+            }
+            .p_b{
+                width: 620px;
+                height: 33px;
+                padding: 7px 0px 3px 0px;
+                font-size: 14px;
+                line-height: 33px;
+                color: #999999;
+                padding-left: 15px;
+                border-bottom: 1px dashed #999999;
+                i{
+                    display: block;
+                    width: 70px;
+                    float: left;
+                    font-style: normal;
+                }
+                a{
+                    display: block;
+                    float: left;
+                    margin-right: 10px;
+                    height: 26px;
+                    border:1px solid #fff;
+                    font-size: 14px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #000000;
+                    padding: 0px 3px;
+                    
+                }
+            }
+            .z_bg{
+                width: 500px;
+                height: 55px;
+                padding: 7px 0px 3px 0px;
+                margin-left: 87px;
+                margin-top: 5px;
+                .num{
+                    width: 57px;
+                    height: 38px;
+                    border: 1px solid #CCCCCC;
+                    position: relative;
+                    margin-right: 10px;
+                    float: left;
+                    input{
+                        display: block;
+                        width: 38px;
+                        height: 38px;
+                        border: none;
+                        font-size: 16px;
+                        font-weight: 900;
+                        text-align: center;
+                        line-height: 38px;
+                        color: #000000;
+                    }
+                    .zhengjia{
+                        display: block;
+                        width: 18px;
+                        height: 18px;
+                        background: url(../img/xiangqing_img/shang.png) no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 39px;
+                        border-left: 1px solid #CCCCCC;
+                        border-bottom: 1px solid #CCCCCC;
+                    }
+                    .jianshao{
+                        display: block;
+                        width: 18px;
+                        height: 18px;
+                        background: url(../img/xiangqing_img/xia.png) no-repeat;
+                        position: absolute;
+                        top: 20px;
+                        left: 39px;
+                        border-left: 1px solid #CCCCCC;
+                    }
+                }
+                .jiarugwc{
+                    display: block;
+                    width: 148px;
+                    height: 41px;
+                    background: url(../img/xiangqing_img/dongtu.png) no-repeat 0px -65px;
+                    float: left;
+                    margin-right:10px ;
+                    &:hover{
+                        background-position: -150px -65px;
+                    }
+                }
+                .sjban{
+                    display: block;
+                    width: 123px;
+                    height: 41px;
+                    float: left;
+                    background: url(../img/xiangqing_img/sj.png) no-repeat;
+                }
+            }
+        }
+        .xqing_r{
+            width: 190px;
+            height: 201px;
+            float: left;
+            a{
+                display: block;
+                width: 62px;
+                height: 66px;
+                float: left;
+            }
+            .bb{
+                width: 190px;
+                height: 66px;
+                background: url(../img/xiangqing_img/bb04.png) no-repeat center center;
+                border-bottom: 1px solid #CCCCCC;
+            }
+            .pinglun{
+                width: 50px;
+                height: 12px;
+                font-size: 12px;
+                color: blue;
+                margin: 10px 0px 0px 140px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            p{
+                display: block;
+                width: 140px;
+                height: 28px;
+                margin-top: 10px;
+                background: url(../img/xiangqing_img/pj.png) no-repeat;
+                float: left;
+            }
+        }
+    }
+}
+
+
+
+#tuwen_bg{
+    width: 1200px;
+    min-height: 16009px;
+    margin: 0 auto;
+     #tuwen_l{
+       width: 202px;
+       height: 1048px;
+       float: left;
+       p{
+           display: block;
+           width: 200px;
+           height: 166px;
+           border: 1px solid #CCCCCC;
+           background: url(../img/xiangqing_img/ma.png) no-repeat;
+       }
+       div{
+           width: 200px;
+           height: 804px;
+           border: 1px solid #CCCCCC;
+           margin-top: 15px;
+           i{
+               display: block;
+               width: 180px;
+               height: 30px;
+               background: #ccc;
+               font-size: 14px;
+               line-height: 30px;
+               font-style: normal;
+               padding-left: 20px;
+           }
+           span{
+               display: block;
+               width: 190px;
+               height: 149px;
+               padding: 5px 5px 0px 5px;
+               border-bottom: 1px solid #CCCCCC;
+               .tuwen_img{
+                   display: block;
+                   width: 100px;
+                   height: 100px;
+                   margin: 0 auto;
+                   img{
+                       width: 100%;
+                       height: 100%;
+                   }
+               }
+               .tuwen_zi{
+                   display: block;
+                   width: 185px;
+                   height: 20px;
+                   font-size: 12px;
+                   color: #000;
+                   line-height: 20px;
+                   padding-left: 5px;
+                   &:hover{
+                       color: #FF5C00;
+                       text-decoration: underline;
+                   }
+               }
+               strong{
+                   display: block;
+                   width: 190px;
+                   height: 20px;
+                   font-size: 16px;
+                   line-height: 20px;
+                   text-align: center;
+                   color: #FF5C00;
+               }
+           }
+       }
+   }
+   #tuwen_r{
+       width: 990px;
+       float: right;
+       #fen{
+           width: 990px;
+           height: 30px;
+           border: 1px solid #CCCCCC;
+           border-top:2px solid #999999 ;
+           position: relative;
+           li{
+               display: block;
+               border-left:1px solid #FFFFFF ;
+               border-right:1px solid #fff;
+               position: absolute;
+               background: #fff;
+               top: 0px;
+               left: -1px;
+               a{
+                   display: block;
+                   width: 82px;
+                   height: 30px;
+                   text-align: center;
+                   line-height: 30px;
+                   font-size: 14px;
+                   color: #000000;
+                   &:hover{
+                       color: #FF5C00;
+                   }
+               }
+           }
+       }
+       span{
+           display: block;
+           width: 990px;
+           height: 30px;
+           padding: 20px 10px;
+           border-left: 1px solid #ccc;
+           border-bottom: 1px solid #CCCCCC;
+           font-size: 12px;
+           
+       }
+       img{
+           display: block;
+           width: 771px;
+           height: 15895px;
+           margin: 0 auto;
+           margin-top:10px ;
+       }
+   }
+}

@@ -1,0 +1,341 @@
+.g_logo_bg {
+  width: 100%;
+  height: 142px;
+  background: #ececec; }
+  .g_logo_bg div {
+    width: 1000px;
+    height: 142px;
+    margin: 0 auto;
+    background: url(../img/gouwuche_img/logo.png) no-repeat; }
+
+.main_bg {
+  width: 100%;
+  height: auto;
+  background: #ececec; }
+  .main_bg .main {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; }
+    .main_bg .main .shangpin {
+      width: 998px;
+      height: 243px;
+      margin-bottom: 20px;
+      border: 1px solid #d3d3d3; }
+      .main_bg .main .shangpin .biaotou {
+        width: 998px;
+        height: 44px;
+        border-bottom: 1px solid #d3d3d3;
+        background: #f8f8f8; }
+        .main_bg .main .shangpin .biaotou .shangjia {
+          width: 487px;
+          height: 44px;
+          float: left;
+          padding-left: 13px; }
+          .main_bg .main .shangpin .biaotou .shangjia a {
+            display: block;
+            width: auto;
+            height: 44px;
+            float: left;
+            font-size: 18px;
+            color: #000000;
+            line-height: 44px;
+            font-weight: 900; }
+          .main_bg .main .shangpin .biaotou .shangjia p {
+            display: block;
+            width: auto;
+            height: 44px;
+            font-size: 14px;
+            color: #666666;
+            line-height: 44px;
+            margin-left: 6px;
+            float: left; }
+        .main_bg .main .shangpin .biaotou span {
+          display: block;
+          height: 44px;
+          float: left;
+          font-size: 14px;
+          color: #000;
+          line-height: 44px;
+          text-align: center; }
+        .main_bg .main .shangpin .biaotou .b_j {
+          width: 149px; }
+        .main_bg .main .shangpin .biaotou .b_s {
+          width: 102px; }
+        .main_bg .main .shangpin .biaotou .b_x {
+          width: 125px; }
+        .main_bg .main .shangpin .biaotou .b_c {
+          width: 70px; }
+      .main_bg .main .shangpin .neirong {
+        width: 958px;
+        height: 141px;
+        padding: 8px 0px 8px 40px;
+        background: #FFFFFF; }
+        .main_bg .main .shangpin .neirong .neirong_t {
+          width: 950px;
+          height: 74px;
+          margin: 8px 8px 8px 0px;
+          line-height: 74px; }
+          .main_bg .main .shangpin .neirong .neirong_t .img {
+            display: block;
+            width: 60px;
+            height: 60px;
+            padding: 6px;
+            border: 1px solid #e5e5e5;
+            float: left; }
+            .main_bg .main .shangpin .neirong .neirong_t .img img {
+              width: 100%;
+              height: 100%; }
+          .main_bg .main .shangpin .neirong .neirong_t .neirong_m {
+            display: block;
+            width: 367px;
+            padding: 0px 12px 0px 9px;
+            height: auto;
+            font-size: 12px;
+            line-height: 18px;
+            color: #555;
+            float: left;
+            margin-top: 26px; }
+          .main_bg .main .shangpin .neirong .neirong_t .neirong_01 {
+            display: block;
+            width: 135px;
+            height: 74px;
+            float: left;
+            font-size: 12px;
+            color: #555555;
+            line-height: 74px;
+            text-align: center; }
+          .main_bg .main .shangpin .neirong .neirong_t .neirong_02 {
+            display: block;
+            width: 113px;
+            height: 74px;
+            float: left; }
+            .main_bg .main .shangpin .neirong .neirong_t .neirong_02 div {
+              width: 86px;
+              height: 26px;
+              margin-top: 24px;
+              margin-left: 13px; }
+              .main_bg .main .shangpin .neirong .neirong_t .neirong_02 div .jiayi {
+                display: block;
+                float: left;
+                width: 24px;
+                height: 24px;
+                border: 1px solid #C1C1C1;
+                background: url(../img/gouwuche_img/jian.png) no-repeat center center; }
+              .main_bg .main .shangpin .neirong .neirong_t .neirong_02 div .shuliang {
+                display: block;
+                float: left;
+                width: 34px;
+                height: 24px;
+                border: none;
+                border-bottom: 1px solid #C1C1C1;
+                border-top: 1px solid #C1C1C1;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                font-weight: 900;
+                color: #000; }
+              .main_bg .main .shangpin .neirong .neirong_t .neirong_02 div .jianyi {
+                display: block;
+                float: left;
+                width: 24px;
+                height: 24px;
+                border: 1px solid #C1C1C1;
+                background: url(../img/gouwuche_img/jia.png) no-repeat center center; }
+          .main_bg .main .shangpin .neirong .neirong_t .neirong_03 {
+            display: block;
+            width: 116px;
+            height: 74px;
+            float: left;
+            font-size: 14px;
+            color: #E60000;
+            text-align: center;
+            line-height: 74px;
+            font-weight: 900; }
+          .main_bg .main .shangpin .neirong .neirong_t .neirong_04 {
+            display: block;
+            width: 92px;
+            height: 74px;
+            float: left; }
+            .main_bg .main .shangpin .neirong .neirong_t .neirong_04 a {
+              display: block;
+              width: 24px;
+              height: 12px;
+              margin-left: 34px;
+              margin-top: 31px;
+              font-size: 12px;
+              color: #555555;
+              line-height: 12px;
+              text-align: center; }
+              .main_bg .main .shangpin .neirong .neirong_t .neirong_04 a:hover {
+                color: #FF5C00; }
+        .main_bg .main .shangpin .neirong .neirong_b {
+          width: 862px;
+          height: 24px;
+          padding: 8px 0px;
+          border: 1px solid #e4ecf2;
+          margin: 0px 0px 9px 66px;
+          background: #f0f9ff; }
+          .main_bg .main .shangpin .neirong .neirong_b span {
+            display: block;
+            width: 476px;
+            height: 24px;
+            padding: 0px 12px 0px 9px;
+            color: #0086dd;
+            font-size: 12px;
+            line-height: 24px;
+            float: left; }
+          .main_bg .main .shangpin .neirong .neirong_b p {
+            display: block;
+            width: 200px;
+            height: 24px;
+            float: left;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+            color: #eb0012; }
+      .main_bg .main .shangpin .xiaoji {
+        width: 998px;
+        height: 40px;
+        border-top: 1px solid #e5e5e5;
+        background: #f8f8f8; }
+        .main_bg .main .shangpin .xiaoji .youhui_xj {
+          width: 598px;
+          height: 40px;
+          float: left;
+          font-size: 12px;
+          text-align: right;
+          line-height: 40px;
+          color: #000; }
+          .main_bg .main .shangpin .xiaoji .youhui_xj p {
+            display: inline-block;
+            font-size: 12px;
+            color: #f00; }
+        .main_bg .main .shangpin .xiaoji .wenzi_xioaji {
+          display: block;
+          float: left;
+          width: 135px;
+          height: 40px;
+          color: #000;
+          font-size: 12px;
+          line-height: 40px;
+          text-align: right; }
+        .main_bg .main .shangpin .xiaoji .wenzi_jiage {
+          display: block;
+          width: 146px;
+          height: 40px;
+          float: left;
+          font-size: 12px;
+          font-weight: 900;
+          color: #f00;
+          line-height: 40px;
+          text-align: center; }
+    .main_bg .main .youhuima {
+      width: 998px;
+      height: 59px;
+      background: #FFFFFF;
+      border: 1px solid #cecece; }
+      .main_bg .main .youhuima .youhuima_box {
+        width: 998px;
+        height: 38px;
+        padding: 10px 0px; }
+        .main_bg .main .youhuima .youhuima_box .youhuima_box_l {
+          display: block;
+          width: 376px;
+          height: 38px;
+          float: left; }
+          .main_bg .main .youhuima .youhuima_box .youhuima_box_l input {
+            display: block;
+            width: 230px;
+            height: 14px;
+            padding: 11px 5px;
+            border: 1px solid #cecece;
+            margin-left: 55px;
+            border-right: none;
+            color: #a7a7a7;
+            font-size: 18px;
+            line-height: 14px;
+            font-weight: 900;
+            float: left; }
+          .main_bg .main .youhuima .youhuima_box .youhuima_box_l a {
+            display: block;
+            width: 80px;
+            height: 38px;
+            float: left;
+            background: url(../img/gouwuche_img/shiyong.png) no-repeat center center; }
+        .main_bg .main .youhuima .youhuima_box .youhuima_box_m {
+          display: block;
+          float: left;
+          width: 351px;
+          height: 38px;
+          font-size: 12px;
+          line-height: 38px;
+          text-align: right;
+          color: #000; }
+        .main_bg .main .youhuima .youhuima_box .youhuima_box_r {
+          display: block;
+          float: left;
+          width: 142px;
+          height: 38px;
+          font-size: 12px;
+          font-weight: 900;
+          color: #FF0000;
+          line-height: 38px;
+          text-align: center; }
+    .main_bg .main .fuzhang {
+      width: 998px;
+      height: 55px;
+      border: 1px solid #d4d4d4;
+      border-top: none;
+      background: #f2f2f2; }
+      .main_bg .main .fuzhang .fuzhang_l {
+        display: block;
+        float: left;
+        width: 163px;
+        height: 55px; }
+        .main_bg .main .fuzhang .fuzhang_l a {
+          display: block;
+          width: 140px;
+          height: 18px;
+          margin: 20px 0px 0px 23px;
+          font-size: 12px;
+          line-height: 18px;
+          color: #057bd2;
+          text-decoration: underline; }
+      .main_bg .main .fuzhang .fukuan {
+        display: block;
+        width: 144px;
+        height: 55px;
+        background: url(../img/gouwuche_img/tijoao.png) no-repeat;
+        float: right; }
+      .main_bg .main .fuzhang .zongjia {
+        display: block;
+        height: 55px;
+        padding: 0px 15px;
+        font-size: 30px;
+        line-height: 55px;
+        color: #FF0000;
+        text-align: center;
+        float: right; }
+      .main_bg .main .fuzhang .shuliang_zj {
+        display: block;
+        float: right;
+        height: 55px;
+        font-size: 14px;
+        color: #000000;
+        line-height: 55px; }
+        .main_bg .main .fuzhang .shuliang_zj p {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 55px;
+          text-align: center;
+          color: #FF0000;
+          margin: 0 2px; }
+
+.none {
+  display: block;
+  width: 1000px;
+  height: 412px;
+  background: url(../img/gouwuche_img/none.png) no-repeat; }
+
+/*# sourceMappingURL=gouwuche.css.map */

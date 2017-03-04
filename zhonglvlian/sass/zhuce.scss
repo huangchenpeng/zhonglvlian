@@ -1,0 +1,283 @@
+#logo{
+    width: 1050px;
+    height: 105px;
+    margin: 0 auto;
+    a{
+        display: block;
+        width: 157px;
+        height: 105px;
+        background: url(../img/denglu_img/logo.png) no-repeat;
+    }
+}
+
+
+#main_bg{
+    width: 100%;
+    height: 552px;
+    padding-top: 55px;
+    background: #E9E9E9;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #CCCCCC;
+    #main{
+        width: 978px;
+        height: 480px;
+        padding: 40px 10px 10px 10px;
+        border: 1px solid #CCCCCC;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        .denglu_dian_bg{
+            background: #f8f8f8;
+            position: absolute;
+            top: -38px;
+            left: 460px;
+            
+            .denglu_dian{
+                display: block;
+                width: 240px;
+                height: 36px;
+                border: 1px solid #CCCCCC;
+                border-bottom: 0px;
+                background: url(../img/zhuce_img/dengl.png) no-repeat center center;
+            
+            }
+        }
+        
+        .zhuce_dian_bg{
+            background: #fff;
+            position: absolute;
+            top: -38px;
+            left: 188px;
+            .zhuce_dian{
+                display: block;
+                width: 240px;
+                height: 36px;
+                border: 1px solid #CCCCCC;
+                border-top: 2px solid #FF5C00;
+                border-bottom: 0px;
+                background: url(../img/zhuce_img/zhuce.png) no-repeat center center;
+            }
+        }
+        
+        
+        .zhuce{
+            width: 978px;
+            height: 470px;
+            .zhuce_l{
+                width: 570px;
+                height: 470px;
+                float: left;
+                margin-left: 40px;
+                ul{
+                    display: block;
+                    width: 570px;
+                    height: 260px;
+                    li{
+                        width: 475px;
+                        height: 63px;
+                        p{
+                            display: block;
+                            width: 115px;
+                            height: 35px;
+                            font-size: 14px;
+                            text-align: right;
+                            line-height: 35px;
+                            color: #666;
+                            float: left;
+                            padding-right: 5px;
+                        }
+                        div{
+                            width: 320px;
+                            height: 59px;
+                            float: left;
+                            input{
+                                display: block;
+                                width: 239px;
+                                height: 20px;
+                                padding: 7px 30px 6px 4px;
+                                border: 1px solid #c1c1c1;
+                                background: url(../img/zhuce_img/dianhua.png) no-repeat 245px center;
+                            }
+                            b{
+                                display: block;
+                                width: auto;
+                                height: 16px;
+                                padding: 2px 5px 2px 20px;
+                                border: 1px solid #ff9900;
+                                background: #ffedb5;
+                                float: left;
+                                margin-top: 2px;
+                                color: #e60000;
+                                font-size: 12px;
+                                position: relative;
+                                line-height: 16px;
+                                display: none;
+                                i{
+                                    display: block;
+                                    width: 16px;
+                                    height: 16px;
+                                    background: url(../img/zhuce_img/jinggao.gif) no-repeat center center;
+                                    position: absolute;
+                                    top: 2px;
+                                    left: 2px;
+                                }
+                            }
+                            .yanzheng{
+                                width: 320px;
+                                height: 35px;
+                                input{
+                                    display: block;
+                                    float: left;
+                                    width: 90px;
+                                    height: 20px;
+                                    padding: 7px 30px 6px 4px;
+                                    border: 1px solid #c1c1c1;
+                                }
+                                span{
+                                    display: block;
+                                    float: left;
+                                    width: 96px;
+                                    height: 33px;
+                                    margin: 0 5px;
+                                    border:  1px solid #c1c1c1;
+                                    position: relative;
+                                    img{
+                                        display: block;
+                                        width: 96px;
+                                        height: 33px;
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        display: none;
+                                    }
+                                }
+                                strong{
+                                    display: block;
+                                    float: left;
+                                    width: 84px;
+                                    height: 28px;
+                                    margin-top: 8px;
+                                    font-size: 10px;
+                                    line-height: 28px;
+                                    font-weight: 100;
+                                    color: #000;
+                                    a{
+                                        display: block;
+                                        width: 36px;
+                                        height: 16px;
+                                        float: right;
+                                        color: #4fb8ff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                
+                
+                
+                
+                
+                .yonghuxieyi{
+                    width: 275px;
+                    height: 35px;
+                    margin-left: 120px;
+                    input{
+                        display: block;
+                        float: left;
+                        width: 13px;
+                        height: 13px;
+                        margin: 11px 3px 3px 4px;
+                    }
+                    p{
+                        display: block;
+                        float: left;
+                        width: 224px;
+                        height: 35px;
+                        margin-left: 5px;
+                        font-size: 14px;
+                        line-height: 35px;
+                        color: #666;
+                        a{
+                            display: block;
+                            float: right;
+                            width: 154px;
+                            height: 14px;
+                            font-size: 14px;
+                            line-height: 12px;
+                            color: #000;
+                            margin-top: 11px;
+                            &:hover{
+                                color: #FF5C00;
+                            }
+                        }
+                    }
+                }
+                
+                .tijiao{
+                    width: 227px;
+                    height: 38px;
+                    margin-left: 120px;
+                    a{
+                        display: block;
+                        width: 227px;
+                        height: 38px;
+                        background:  url(../img/zhuce_img/tijiaozhuce.png) no-repeat;
+                    }
+                }
+                
+                .qitafangshi{
+                    width: 400px;
+                    height: 50px;
+                    margin-left: 120px;
+                    margin-top: 20px;
+                    p{
+                        display: block;
+                        width: 400px;
+                        height: 18px;
+                        line-height: 18px;
+                        font-size: 14px;
+                        color: #000;
+                    }
+                    a{
+                        display: block;
+                        float: left;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                        margin-top: 10px;
+                    }
+                }
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            .zhuce_r{
+                width: 300px;
+                height: 470px;
+                padding-right: 50px;
+               float: right;
+               a{
+                   display: block;
+                   width: 300px;
+                   height: 300px;
+                   background: url(../img/zhuce_img/bann.jpg) no-repeat;
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: #333;
+		}
+		h1{
+			text-align: center;
+			color:#fff;
+		}
+		/*控制中轴（长短）*/
+		.timezone{
+			width:6px;
+			height: 650px;
+			background: #0faaf0;
+			/*margin: 0 auto;*/
+			margin-left: 150px;
+			margin-top:50px;
+			border-radius: 3px;
+			position: relative;
+			-webkit-animation: heightSlide 2s linear;
+		}
+		@-webkit-keyframes heightSlide{
+			0%{
+				height: 0;
+			}
+			100%{
+				height: 650px;
+			}
+		}
+		/*动画控制*/
+		.timezone:after{
+			content: '...';
+			width: 100px;
+			color:#fff;
+			position: absolute;
+			margin-left: -35px;
+			bottom: -30px;
+			-webkit-animation: showIn 4s ease;
+		}
+		.timezone .timeRight,.timezone .timeLeft{
+			position: absolute;
+			margin-left: -10px;
+			margin-top:-10px;
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			border:4px solid rgba(255,255,255,0.5);
+			background: lightblue;
+			-webkit-transition: all 0.5s;
+			-webkit-animation: showIn ease;
+		}
+		/*控制出现时间*/
+		.timezone .timeRight:nth-child(1){
+			-webkit-animation-duration:1s;
+		}
+		.timezone .timeRight:nth-child(2){
+			-webkit-animation-duration:1.5s;
+		}
+		.timezone .timeRight:nth-child(3){
+			-webkit-animation-duration:2s;
+		}
+		.timezone .timeRight:nth-child(4){
+			-webkit-animation-duration:2.5s;
+		}
+		/**/
+		@-webkit-keyframes showIn{
+			0%,70%{
+				opacity: 0;
+			}
+			100%{
+				opacity: 1;
+			}
+		}
+		.timezone .timeRight h2,.timezone .timeLeft h2{
+			position: absolute;
+			margin-left: -120px;
+			margin-top: 3px;
+			color:#eee;
+			font-size: 14px;
+			cursor:pointer;
+			-webkit-animation: showIn 3s ease;
+		}
+		.timezone .timeLeft h2{
+			margin-left: 60px;
+			width: 100px;
+		}
+		.timezone .timeRight:hover,.timezone .timeLeft:hover{
+			border:4px solid lightblue;
+			background: lemonchiffon;
+			box-shadow: 0 0 2px 2px rgba(255,255,255,0.4);
+		}
+		.timezone .timeRight div,.timezone .timeLeft div{
+			position: absolute;
+			top:50%;
+			margin-top: -25px;
+			left:50px;
+			width: 300px;
+			height: 80px;
+			background: #fff;
+			border:3px solid #eee;
+			border-radius: 5px;
+			z-index: 2;
+			overflow: hidden;
+			cursor:pointer;
+			-webkit-animation: showIn 3s ease;
+			-webkit-transition: all 0.5s;
+		}
+		.timezone .timeRight div p,.timezone .timeLeft div p{
+			height: 80px;
+			width: auto;
+			line-height: 80px;
+			font-size: 20px;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+			padding: 0 10px;
+		}
+		.timezone .timeLeft div{
+			left:-337px;
+		}
+		.timezone .timeRight div:hover,.timezone .timeLeft div:hover{
+			width: 600px;
+			/*width: auto;*/
+			position: relative;
+			z-index: 10
+		}
+		.timezone .timeRight div:hover p,.timezone .timeLeft div:hover p{
+			position: relative;
+			z-index: 10
+		}
+		.timezone .timeRight div p,.timezone .timeLeft div p{
+			color: #111
+			font-weight: bold;
+			text-align: center;
+		}
+		.timezone .timeRight:before,.timezone .timeLeft:before{
+			content: '';
+			position: absolute;
+			top:0px;
+			left: 32px;
+			width: 0px;
+			height: 0px;
+			border:10px solid transparent;
+			border-right:10px solid #eee;
+			z-index:-1;
+			-webkit-animation: showIn 3s ease;
+		}
+		.timezone .timeLeft:before{
+			left:-33px;
+			border:10px solid transparent;
+			border-left:10px solid #eee;
+		}
+		.timezone .timeRight div ul,.timezone .timeLeft div ul{
+			list-style: none;
+			width: 100%;
+			padding:5px 0 0;
+			border-top:2px solid #eee;
+			color: #111;
+		}
+		.timezone .timeRight div li,.timezone .timeLeft div li{
+			display: inline-block;
+			height: 25px;
+			line-height: 25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="timezone">
+			<div class="timeRight">
+				<h2>2015-2-30</h2>
+				<div>
+					<p>2016互联网大会 “大数据时代个人信息保护制度的建设”</p>
+				</div>
+			</div>
+
+			<div class="timeRight" style="top: 200px;">
+				<h2>2015-07-32</h2>
+				<div>
+					<p>安装插件 babel-sublime插件的安装</p>
+				</div>
+			</div>
+
+			<div class="timeRight" style="top: 400px;">
+				<h2>2015-13-00</h2>
+				<div>
+					<p>修改TAB缩进为空格的方法是什么</p>
+				</div>
+			</div>
+
+			<div class="timeRight" style="top: 600px;">
+				<h2>2018-14-35</h2>
+				<div>
+					<p>ReactJS学习-Sublime Text 3</p>
+				</div>
+			</div>
+	</div>
+</body>
+<script type="text/javascript" src="cvs.js"></script>
+</html>

@@ -1,0 +1,226 @@
+
+$hc_bgcolor:#ffcc33;
+
+
+@mixin jz($m_tm:0px){
+    margin: $m_tm auto;
+}
+
+
+#banner_bg{
+    width: 100%;
+    height: 450px;
+    background: url(../img/huichang_img/banner.jpg) no-repeat center 0;
+    #banner{
+        width: 1090px;
+        height: 450px;
+        background: url(../img/huichang_img/banner.jpg) no-repeat center 0;
+        @include jz();
+    }
+}
+
+#xjson_bg{
+    width: 100%;
+    height: 993px;
+    background: $hc_bgcolor;
+    #xjson{
+        width: 930px;
+        height: 993px;
+        @include jz();
+        ul{
+            width: 930px;
+            height: 993px;
+            li{
+                display: block;
+                float: left;
+                width: 224px;
+                height: 323px;
+                margin:  8px 8px 0px 0;
+                background: #fff;
+                transition: all 1s ease;
+                &:hover{
+                    transform: translateY(-10px);
+                }
+                span{
+                    display: block;
+                    width: 188px;
+                    height: 188px;
+                    padding: 20px 32px 0 32px;
+                    a{
+                        display: block;
+                        width: 188px;
+                        height: 188px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .mz{
+                    display: block;
+                    width: 214px;
+                    height: 16px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #666;
+                    padding-left: 10px;
+                    margin-top: 10px;
+                    &:hover{
+                        color: #FF5C00;
+                    }
+                }
+                b{
+                    display: block;
+                    width: 200px;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    height: 16px;
+                    color: #f00;
+                    font-weight: 100;
+                }
+                strong{
+                    display: block;
+                    width: 200px;
+                    height: 24px;
+                    margin-top: 7px;
+                    margin-left: 10px;
+                    color: #FF0000;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .dian04{
+                    display: block;
+                    width: 155px;
+                    height: 31px;
+                    background: url(../img/huichang_img/dianji.png) no-repeat;
+                    @include jz(2px);
+                }
+            }
+        }
+    }
+}
+
+
+//下边图片
+#tu_bg{
+    width: 100%;
+    height: 1656px;
+    background: $hc_bgcolor;
+    padding-top: 8px;
+    #tu{
+        width: 1000px;
+        height: 1656px;
+        background: url(../img/huichang_img/xiangqing.jpg) no-repeat;
+        @include jz();
+    }
+}
+
+
+.fenxiang{
+    display: block;
+    width: 24px;
+    height: 88px;
+    background: url(../img/huichang_img/fenxiang.png) no-repeat;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    transition: all 1s ease;
+    &:hover{
+        transform: translateX(-116px);
+    }
+     .ft{
+        width: 116px;
+        height: 230px;
+        background: url(../img/huichang_img/ft.png) no-repeat 0 0;
+        position: absolute;
+        top: 0px;
+        left: 24px;
+        span{
+            display: block;
+            width: 116px;
+            height: 230px;
+            position: relative;
+            .ft01{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 40px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+            .ft02{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 70px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+            .ft03{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 105px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+            .ft04{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 135px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+            .ft05{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 165px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+            .ft06{
+                display: block;
+                width: 100px;
+                height: 20px;
+                position: absolute;
+                top: 203px;
+                left: 10px;
+                &:hover{
+                    background: #666;
+                    opacity: 0.3;
+                }
+                
+            }
+        }
+        
+    }
+
+}

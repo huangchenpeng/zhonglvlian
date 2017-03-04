@@ -1,0 +1,573 @@
+/*头文件，就是轮播图上边的一大堆*/
+
+#header_bg {
+    width: 100%;
+    height: auto;
+}
+
+#header_bg #header_top {
+    width: 100%;
+    height: 66px;
+    display: block;
+}
+
+#header_bg #header_top img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*最上边图片的下边的一条线*/
+
+#header_xian {
+    width: 100%;
+    height: 4px;
+    background: #f2f2f2;
+}
+
+
+/*版本客服之类选择栏*/
+
+#header_xz_bg {
+    width: 100%;
+    height: 42px;
+    background: #eeecef;
+    margin: 0 auto;
+}
+
+
+/*第一行选择栏的大小，定位*/
+
+#header_xz_bg .header_xz {
+    width: 1360px;
+    height: 42px;
+    margin: 0 6% 0 8%;
+    margin: 0 auto;
+}
+
+
+/*母婴之家 母婴海淘 手机版 三个 在左边*/
+
+#header_xz_bg .header_xz .header_xz_l {
+    width: 320px;
+    height: 42px;
+    float: left;
+}
+
+#header_xz_bg .header_xz .header_xz_l li {
+    float: left;
+}
+
+#header_xz_bg .header_xz .header_xz_l li a {
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #666;
+    line-height: 42px;
+}
+
+#header_xz_bg .header_xz .header_xz_l li a:hover {
+    color: #FF5c00;
+}
+
+
+/*母婴之家  几个字*/
+
+#header_xz_bg .header_xz .header_xz_l .header_xz_l_l1 {
+    height: 41px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #fff;
+}
+
+#header_xz_bg .header_xz .header_xz_l li .header_xz_l_a1 {
+    color: #FF5c00;
+}
+
+
+/*手机版几个字的设置*/
+
+#header_xz_bg .header_xz .header_xz_l .header_xz_l_l2 {
+    width: 86px;
+    margin: 0 10px;
+}
+
+#header_xz_bg .header_xz .header_xz_l li .header_xz_l_a2 {
+    display: block;
+    width: 86px;
+    height: 41px;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+#header_xz_bg .header_xz .header_xz_l li .header_xz_l_a2:hover {
+    border: 1px solid #FF5c00;
+    border-bottom: none;
+    background: #fff;
+}
+
+
+/*手机版的手机小运动图标*/
+
+#header_xz_bg .header_xz .header_xz_l .header_xz_l_l2 i {
+    display: block;
+    width: 12px;
+    height: 20px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 10px;
+    background: url(../img/index_img/dongtu.png) no-repeat;
+    /*background-position: -320px -240px;*/
+    background-position-x: -320px;
+    background-position-y: -240px;
+}
+
+
+/*登录 我的订单 等等在右边*/
+
+#header_xz_bg .header_xz .header_xz_r {
+    width: auto;
+    height: 32px;
+    padding-top: 5px;
+    float: right;
+}
+
+#header_xz_bg .header_xz .header_xz_r li {
+    height: 24px;
+    font-size: 12px;
+    float: left;
+    padding: 0 6px;
+    border-right: 1px solid #CCCCCC;
+    position: relative;
+}
+
+
+/*第一个li里边的东西*/
+
+#header_xz_bg .header_xz .header_xz_r li p {
+    float: left;
+    margin-right: 8px;
+}
+
+#header_xz_bg .header_xz .header_xz_r .header_xz_r_l1 a {
+    width: auto;
+    text-align: center;
+    margin: 0 3px;
+    color: #FF5C00;
+}
+
+
+/*通用的a*/
+
+#header_xz_bg .header_xz .header_xz_r li a {
+    width: 50px;
+    display: block;
+    height: 24px;
+    float: left;
+}
+
+#header_xz_bg .header_xz .header_xz_r li .xl {
+    border: 1px solid #eeecef;
+    width: 58px;
+}
+
+#header_xz_bg .header_xz .header_xz_r li .xl:hover {
+    width: 58px;
+    /*border: 1px solid #FF5C00;
+	border-bottom: 0;*/
+    background: #fff;
+}
+
+#header_xz_bg .header_xz .header_xz_r div {
+    width: 58px;
+    position: absolute;
+    border: 1px solid #FF5C00;
+    border-top: 0;
+    top: 24px;
+    left: 6px;
+    background: #fff;
+}
+
+#header_xz_bg .header_xz .header_xz_r em {
+    display: block;
+    width: 8px;
+    height: 4px;
+    background: url(../img/index_img/xiadian.png) no-repeat;
+    position: absolute;
+    top: 11px;
+    left: 56px;
+}
+
+#header_xz_bg .header_xz .header_xz_r div a {
+    display: block;
+    width: 58px;
+    height: 24px;
+}
+
+#header_xz_bg .header_xz .header_xz_r .header_xz_r_d1 {
+    display: none;
+}
+
+
+/*搜索框*/
+
+#sousuo_bg {
+    background: #fff;
+    width: 100%;
+    height: 111px;
+    overflow: hidden;
+}
+
+#sousuo {
+    width: 1096px;
+    height: 71px;
+    margin: 20px auto;
+}
+
+#sousuo .logo, #sousuo .phone {
+    display: block;
+    width: 210px;
+    height: 71px;
+    float: left;
+}
+
+#sousuo .phone {
+    margin-left: 55px;
+}
+
+#sousuo .logo img, #sousuo .phone img {
+    width: 100%;
+    height: 100%;
+}
+
+#sousuo .dian01 {
+    display: block;
+    width: 70px;
+    height: 60px;
+    background: url(../img/index_img/dian01.png) no-repeat;
+    float: left;
+    margin: 0 15px 0 100px;
+}
+
+#sousuo .dian02 {
+    display: block;
+    width: 70px;
+    height: 60px;
+    background: url(../img/index_img/dian02.png) no-repeat;
+    float: left;
+    margin: 0 15px;
+}
+
+#sousuo .dian03 {
+    display: block;
+    width: 70px;
+    height: 60px;
+    background: url(../img/index_img/dian03.png) no-repeat;
+    float: left;
+    margin: 0 15px;
+}
+
+.shuru {
+    width: 488px;
+    height: 35px;
+    border: 2px solid #006293;
+    float: right;
+    margin-right: 25px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.shuru input {
+    display: block;
+    width: 419px;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    line-height: 32px;
+    float: left;
+}
+
+.dainji {
+    display: block;
+    width: 59px;
+    height: 35px;
+    background: url(../img/index_img/dianji.png);
+    float: right;
+}
+
+#sousuo ul {
+    width: 512px;
+    height: 14px;
+    float: right;
+}
+
+#sousuo ul li {
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+
+#sousuo ul li a {
+    display: block;
+    font-size: 12px;
+    padding-right: 10px;
+    color: #999;
+}
+
+#sousuo ul li a:hover {
+    color: #FF5C00;
+}
+
+
+/*商品的分类*/
+
+#shangpin-bg {
+    background: #eeecef;
+}
+
+#shangpin {
+    width: 1090px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+#shangpin span {
+    width: 112px;
+    height: 35px;
+    float: left;
+    font-size: 14px;
+    font-weight: 900;
+    color: #FF5C00;
+    line-height: 35px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#shangpin span i {
+    width: 9px;
+    height: 6px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    background: url(../img/index_img/dongtu02.png) no-repeat;
+    background-position: -110px -65px;
+}
+
+#shangpin ul {
+    width: 488px;
+    height: 35px;
+    float: left;
+}
+
+#shangpin ul li {
+    padding: 0 20px;
+    height: 35px;
+    font-size: 14px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+}
+
+#shangpin ul li a {
+    display: block;
+    color: #000;
+    height: 35px;
+}
+
+#shangpin ul li a:hover {
+    color: #000;
+}
+
+#shangpin ul .you div {
+    width: 98px;
+    height: 70px;
+    border: 1px solid #FF5C00;
+    border-top: none;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    background: #fff;
+    display: none;
+}
+
+#shangpin ul .you div a:hover {
+    color: #FF5C00;
+}
+
+#shangpin .jinggao {
+    width: 141px;
+    height: 14px;
+    background: url(../img/index_img/jinggao.png) no-repeat;
+    float: right;
+    margin-top: 10px;
+    margin-right: 75px;
+}
+
+#hua {
+    width: 100%;
+    height: 21px;
+    background: url(../img/index_img/huabian.png) repeat-x;
+    z-index: 33;
+    position: absolute;
+    top: 257px;
+}
+
+
+/*//商品分类下拉菜单*/
+
+#shangpin #fenlei .erji {
+    display: block;
+    width: 139px;
+    height: 333px;
+    position: absolute;
+    top: 34px;
+    left: -20px;
+    display: none;
+}
+
+#shangpin #fenlei .erji li {
+    width: 139px;
+    height: 39px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 39px;
+    padding: 0;
+    position: relative;
+}
+
+#shangpin #fenlei .erji li em {
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 17px;
+}
+
+#shangpin #fenlei .erji li i {
+    width: 6px;
+    height: 9px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    margin: 0;
+    background: url(../img/index_img/bb.png);
+}
+
+#shangpin #fenlei .erji li a {
+    color: #666666;
+}
+
+#shangpin #fenlei .erji li a:hover {
+    color: #FF5C00;
+}
+
+
+/*第三级菜单*/
+
+#shangpin #fenlei .erji li div {
+    width: 946px;
+    min-height: 333px;
+    border: 1px solid #FF5C00;
+    position: absolute;
+    top: -1px;
+    left: 138px;
+    z-index: 5;
+    background: #fff;
+    display: none;
+}
+
+#shangpin #fenlei .erji li div .sl {
+    display: block;
+    width: 735px;
+    height: auto;
+    float: left;
+    margin: 0;
+    border-right: 1px dashed #CCCCCC;
+}
+
+#shangpin #fenlei .erji li div .sl dl {
+    display: block;
+    width: 675px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+#shangpin #fenlei .erji li div .sl dl dt {
+    width: 675px;
+    height: 18px;
+    padding: 3px 0;
+    border-bottom: 1px dashed #CCCCCC;
+    text-align: left;
+    line-height: 18px;
+    color: #000;
+}
+
+#shangpin #fenlei .erji li div .sl dl dd {
+    width: 675px;
+    height: 20px;
+}
+
+#shangpin #fenlei .erji li div .sl dl dd a {
+    display: block;
+    width: auto;
+    height: 12px;
+    line-height: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #999999;
+    border-right: 1px solid #999999;
+}
+
+#shangpin #fenlei .erji li div .sr {
+    display: block;
+    width: 210px;
+    min-height: 333px;
+    float: right;
+    margin: 0;
+}
+
+#shangpin #fenlei .erji li div .sr a {
+    display: block;
+    width: 105px;
+    height: 55px;
+    float: left;
+}
+
+#shangpin #fenlei .erji li div .sr a img {
+    width: 100px;
+    height: 40px;
+    margin: 7px 2px 8px 3px;
+}
+
+.marginT8 {
+    margin-top: 8px;
+}
+
+.foot {
+    background: #333;
+    padding: 30px 0;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.foot p{
+	text-align: center;
+}
+
+.foot a:link, .foot a:visited {
+    color: #ccc;
+}
+
+.marginT40 {
+    margin-top: 40px;
+}
+.marginT20 {
+    margin-top: 20px;
+}
